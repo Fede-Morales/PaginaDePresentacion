@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    margin: 0%;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.header{
+    
+    background: linear-gradient(to right, #000428, #004e92);
+    height: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 35% auto; 
+    position: relative;
+  
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+
+.img__body{
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+    height: 270px;
+    overflow: hidden;
+   
+}
+.img{
+    position: relative;
+    border-radius: 250px;
+    margin:-20px;
+    margin-top: 1%;
+    margin-bottom: 1px;
+    width: 260px;
+    height: 265px;  
+}
+
+.button{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #000428, hsl(208, 100%, 29%));
+    border: 2px white solid;
+    border-radius: 5px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    transition: .3s ease all;
+    overflow: hidden ;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.button::after{
+    content: "";
+    position:absolute;
+    background: linear-gradient(to right, #00416a, #799f0c, #ffe000);
+    width: 100%;
+    height: 100%;
+    top: -80px;
+    left:0px ;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+.button p{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+    
+}
+.button:hover::after{
+    top:0px;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color: white;
+}
