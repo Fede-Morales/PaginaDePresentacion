@@ -77,6 +77,11 @@ body{
 .button:hover::after{
     top:0px;
 }
+.img_const{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
 
 h1{
     color:white;
