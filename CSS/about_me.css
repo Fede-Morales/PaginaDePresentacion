@@ -4,14 +4,12 @@ body{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .header{
-    
     background: linear-gradient(to right, #1e3c72, #2a5298);
     height: 90px;
     width: 100%;
     display: grid;
     grid-template-columns: 35% 35% auto; 
     position: relative;
-  
 }
 .img{
     height: 30px;
